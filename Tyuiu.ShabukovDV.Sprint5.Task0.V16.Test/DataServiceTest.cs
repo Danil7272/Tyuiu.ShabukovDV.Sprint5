@@ -11,7 +11,7 @@ namespace Tyuiu.ShabukovDV.Sprint5.Task0.V16.Test
         public void CheckedExistsFile()
         {
             string path = @"C:\Users\Ghostxr\source\repos\Tyuiu.ChurinDV.Sprint5\Tyuiu.ChurinDV.Sprint5.Task1.V16\bin\Debug\OutPutFileTask1.txt";
-            FileInfo fileInfo = new FileInfo(path);
+            FileInfo fileInfo = new FileInf(path);
             bool fileExists = fileInfo.Exists;
 
             bool wait = true;
