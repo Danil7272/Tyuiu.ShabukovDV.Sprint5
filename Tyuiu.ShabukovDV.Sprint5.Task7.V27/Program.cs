@@ -29,6 +29,8 @@ namespace Tyuiu.ShabukovDV.Sprint5.Task7.V27
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+            Console.WriteLine("***************************************************************************");
+
 
             string path = $@"C:\DataSprint5\InPutDataFileTask7V27.txt";
             string pathSaveFile = $@"C:\DataSprint5\OutPutDataFileTask7V27.txt";
